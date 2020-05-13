@@ -2,7 +2,7 @@
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.coludflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- Required meta tags -->
@@ -22,28 +22,29 @@
 <body >
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.coludflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 <!-- navbar -->
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active"><img src="logo.png" height="40px";></a>
-  <a href="#news" id="last">ACT CLASS</a>
+  <a href="#home" id="left"><img src="logo.png" style="height:28px;"></a>
+  <a href="#news">ACT CLASS</a>
   <a href="#news">CUE CLASS</a>
   <a href="#contact">MAC CLASS</a>
   <a href="#contact">ASK CLASS</a>
-  <a href="#about" id="mr5">LET'S BUZZ</a>
+  <a href="#about"  style="padding-right:" >LET'S BUZZ</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
+
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
-    x.className += " responsive";
+    x.className += "responsive";
   } else {
     x.className = "topnav";
   }
@@ -58,18 +59,24 @@ function myFunction() {
 <div style="background-color:#663399;">
     <div class="container ptop" >
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 tcenter">
+          
+            <div class="col-ld-4 clo-md-4 col-sm-4 tcenter">
                 <img src="act.png" class="img-thumbnail back1" id="no">
             </div>
+            
         </div>
     </div>
 
     <div class="container top">
         <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-8 tcenter">
+            <div class="col-ld-2 clo-md-2 col-sm-2">
+            </div>
+            <div class="col-ld-8 clo-md-8 col-sm-8">
                <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ucA8diHiiqw" allowfullscreen></iframe>
                 </div>
+            </div>
+             <div class="col-ld-2 clo-md-2 col-sm-2">
             </div>
         </div>
     </div>
@@ -80,15 +87,15 @@ function myFunction() {
 </div>
     <div class="container" >
         <div class="row">
-            <div class="col-lg=12 col-md-12 col-sm=12">
-                <p><b>What is ACT</b></p>
-                <p>ACT is designed to assist students to achieve expected competencies in core academic skills such as literacy and numeracy. Chilgren need strong foundational skills to Gather, Process & Express information in an academic set up. So we help them achieve those by enabling the chilg to start READING, WRITING and COUNTING.</p>
+            <div class="col-lg=12 col-md-12 col-sm-12">
+                <p class="neo"><b>What is ACT</b></p>
+                <p class="helvetica">ACT is designed to assist students to achieve expected competencies in core academic skills such as literacy and numeracy. Children need strong foundational skills to Gather, Process & Express information in an academic set up. So we help them achieve those by enabling the child to start READING, WRITING and COUNTING.</p>
             </div>
         </div>
     </div>
 <div style="height: 100%;">
-            <div>
-                <h1 id="pad"  class="pad center top" >INDICATORS FOR HELP</h1  >
+            <div style="display: inline-block;">
+                <h1 class="center top">INDICATORS FOR HELP</h1>
             </div>
 
 
@@ -113,7 +120,7 @@ function myFunction() {
 
 
             <div>
-                <h1 id="pad"  class="pad center top">ACT FORMULA</h1  >
+                <h1 class="center top">ACT FORMULA</h1>
             </div>
         
 
@@ -125,16 +132,16 @@ function myFunction() {
             <div class="col-lg-8 col-md-8 col-sm-12 " id="cent">
                 <img src="sitdown.png" class="img-thumbnail back back " id="no">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 " id="cent1">
-                <p class="center">Foundational Skill Development</p>
-                <p class="center">Individual Educational Programme</p>
-                <p class="center">1:6 Teacher Student Rattio</p>
+            <div class="col-lg-4 col-md-4 col-sm-4" id="cent1">
+                <p class="textright">Foundational Skill Development</p>
+                <p class="textright">Individual Educational Programme</p>
+                <p class="textright">1:6 Teacher Student Rattio</p>
             </div>
         </div>
     </div>
 <div class="lw">
     <div>
-        <h1 id="pad"  class="pad center top">OUR APPROACH</h1>
+        <h1 class="center top">OUR APPROACH</h1>
     </div>
 
 
@@ -145,7 +152,7 @@ function myFunction() {
         <div class="row top">
             <div class="col-lg-8 col-md-8 col-sm-12" style="display: block;margin:auto; ">
                 <h4>Reading & Writing Skill Development</h4>
-                <p>ACT encompasses proven strategies which guide chilgren in the process of reading & writing skill development, involving</p>
+                <p>ACT encompasses proven strategies which guide children in the process of reading & writing skill development, involving</p>
                 <ul>
                     <li><a> Letter sound association & word recognition </a></li>
                     <li><a>Basic English Vocabulary </a></li>
@@ -163,10 +170,10 @@ function myFunction() {
          <div class="row top">
             <div class="col-lg-8 col-md-8 col-sm-12" style="display: block;margin:auto; ">
                 <h4>English Language proficiency </h4>
-                <p>ACT instills language proficiency by exposing Chilgren to  level appropriate components of English language structure, which improves their ability to comprehend and apply the nuances of  language in reading, writing & speaking. Our consistent exposure, practice & feedback mechanism helps them develop proficiency in English.</p>
+                <p>ACT instills language proficiency by exposing Children to  level appropriate components of English language structure, which improves their ability to comprehend and apply the nuances of  language in reading, writing & speaking. Our consistent exposure, practice & feedback mechanism helps them develop proficiency in English.</p>
                      
              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4" style="display: block;margin:auto;">
+              <div class="col-lg-3 col-md-3 col-sm-4" style="display: block;margin:auto;">
                 <img src="oa2.png" class="img-thumbnail lw" id="no">
             </div>
         </div>
@@ -175,10 +182,10 @@ function myFunction() {
         <div class="row top">
             <div class="col-lg-8 col-md-8 col-sm-12" style="display: block;margin:auto; ">
                 <h4>Blend of Whole-Language & Phonics Approach   </h4>
-                <p>Reading can happen through the whole-word route (instant word recognition) or Phonics route (decoding). Most of the chilgren tend to have only one of these dominant, which affects their overall fluency & decoding skills. ACT’s intervention blends both approaches to elevate instant word recognition & rapid decoding skills in parallel for fluent reading. </p>
+                <p>Reading can happen through the whole-word route (instant word recognition) or Phonics route (decoding). Most of the children tend to have only one of these dominant, which affects their overall fluency & decoding skills. ACT’s intervention blends both approaches to elevate instant word recognition & rapid decoding skills in parallel for fluent reading. </p>
                      
              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4" style="display: block;margin:auto;">
+              <div class="col-lg-3 col-md-3 col-sm-4" style="display: block;margin:auto;">
                 <img src="oa3.png" class="img-thumbnail lw" id="no">
             </div>
         </div>
@@ -186,10 +193,10 @@ function myFunction() {
         <div class="row top">
             <div class="col-lg-8 col-md-8 col-sm-12" style="display: block;margin:auto; ">
                 <h4>Individualized Education Plans  </h4>
-                <p>ACT gives chilgren the privilege of Individualized Education Plans, which facilitate learning at a level & pace best suited for the individual. This ensures appropriate intervention for chilgren for consistent progress & productive learning, reducing stress levels.</p>
+                <p>ACT gives children the privilege of Individualized Education Plans, which facilitate learning at a level & pace best suited for the individual. This ensures appropriate intervention for children for consistent progress & productive learning, reducing stress levels.</p>
                      
              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4" style="display: block;margin:auto;">
+              <div class="col-lg-3 col-md-3 col-sm-4" style="display: block;margin:auto;">
                 <img src="oa4.png" class="img-thumbnail lw" id="no">
             </div>
         </div>
@@ -197,10 +204,10 @@ function myFunction() {
         <div class="row top" style="padding-bottom: 25px;">
             <div class="col-lg-8 col-md-8 col-sm-12" style="display: block;margin:auto; ">
                 <h4>VAKT Method of Teaching  </h4>
-                <p>Every chilg had a dominant learning style, which, when tapped ensures productive learning & long term retention of knowledge. ACT packs modules with a right mix of Visual, Auditory, Kinaesthetic & Tactile activities, which can help chilgren process & retain information in their learning  style. </p>
+                <p>Every child had a dominant learning style, which, when tapped ensures productive learning & long term retention of knowledge. ACT packs modules with a right mix of Visual, Auditory, Kinaesthetic & Tactile activities, which can help children process & retain information in their learning  style. </p>
                      
              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4" style="display: block;margin:auto;">
+              <div class="col-lg-3 col-md-3 col-sm-4" style="display: block;margin:auto;">
                 <img src="oa5.png" class="img-thumbnail lw" id="no">
             </div>
         </div>
@@ -213,17 +220,17 @@ function myFunction() {
 
 <div class="back1">
  <div>
-        <h1 id="pad"  class="pad center">KEY BENEFITS</h1>
+        <h1 class="center ">KEY BENEFITS</h1>
     </div>
     
 <img src="key_benefits.png" width="50%" style="display:block;margin: auto;margin-top:0;background-color: #663399">
-<img src="kbb.png" width="100%">
+<img src="kbb.png" width="100%"> 
 
 </div>
 
 <div class="back1">
     <div>
-        <h1 id="pad"  class="pad center p ">KEY BENEFITS</h1 >
+        <h1 class="center p ">KEY BENEFITS</h1>
     </div>
     <img src="kb2.png" width="70%" class="tcenter ptop"> 
     <div class="container">
@@ -240,7 +247,7 @@ function myFunction() {
 
 <div class="lw">
     <div>
-        <h1 id="pad"  class="pad center p">TECHNOLOGICAL ASSIST</h1>
+        <h1 class="center p">TECHNOLOGICAL ASSIST</h1>
     </div>
      <img src="below.png" width="80%" class="tcenter ptop"> 
 </div>
